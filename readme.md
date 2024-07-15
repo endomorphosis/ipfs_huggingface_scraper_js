@@ -1,3 +1,29 @@
+
+# IPFS Huggingface Scraper
+
+with interactive prompt:
+
+~~~shell
+node scraper.js [source] [model name]
+~~~
+
+~~~shell
+node scraper.js 
+~~~
+
+import a model already defined:
+
+~~~shell
+node scraper.js hf "modelname" (as defined in your .json files)
+~~~
+
+import all models previously defined:
+
+~~~shell
+node scraper.js hf 
+~~~
+
+
 # IPFS Huggingface Bridge:
 
 for huggingface transformers python library visit:
