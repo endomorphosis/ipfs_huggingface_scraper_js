@@ -1,0 +1,19 @@
+{
+  "name": "ipfs_huggingface_scraper_js",
+  "version": "1.0.0",
+  "description": "with interactive prompt:",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endomorphosis/ipfs_huggingface_scraper_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/endomorphosis/ipfs_huggingface_scraper_js/issues"
+  },
+  "homepage": "https://github.com/endomorphosis/ipfs_huggingface_scraper_js#readme"
+}
