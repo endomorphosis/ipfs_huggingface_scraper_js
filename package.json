@@ -1,10 +1,10 @@
 {
   "name": "ipfs_huggingface_scraper_js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "with interactive prompt:",
   "main": "scraper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": " node tests/test.js"
   },
   "repository": {
     "type": "git",
