@@ -1,8 +1,8 @@
 {
   "name": "ipfs_huggingface_scraper_js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "with interactive prompt:",
-  "main": "scraper.js",
+  "main": "index.js",
   "scripts": {
     "test": " node tests/test.js"
   },
@@ -10,8 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/endomorphosis/ipfs_huggingface_scraper_js.git"
   },
-  "author": "",
-  "license": "ISC",
+	"author": "Benjamin Barber",
+	"license": "AGPL-3.0-only",
+  "dependencies": {
+  },
   "bugs": {
     "url": "https://github.com/endomorphosis/ipfs_huggingface_scraper_js/issues"
   },

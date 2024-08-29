@@ -2,7 +2,7 @@ import * as manifest from './manifest.js'
 import process from 'process'
 import * as generate_manifest from './generate_manifest.js'
 
-export class Scraper {
+export class scraper {
     constructor(s3_creds, hf_creds, mysql_creds, local_model_path, ipfs_path, collection_path) {
         this.env = process.env;
         if (s3_creds != undefined) {
@@ -101,3 +101,6 @@ export class Scraper {
         }
     }
 }
+
+
+export default scraper;
