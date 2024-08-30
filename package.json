@@ -1,6 +1,6 @@
 {
   "name": "ipfs_huggingface_scraper_js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "with interactive prompt:",
   "main": "index.js",
   "scripts": {
