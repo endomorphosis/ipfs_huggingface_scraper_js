@@ -1,7 +1,6 @@
 import * as manifest from './manifest.js'
 import process from 'process'
 import * as generate_manifest from './generate_manifest.js'
-import ipfsHuggingfaceScraperJs from '../index.js';
 
 export class ipfsHuggingfaceScraperJs {
     constructor(s3_creds, hf_creds, mysql_creds, local_model_path, ipfs_path, collection_path) {
