@@ -1,22 +1,27 @@
 {
   "name": "ipfs_huggingface_scraper_js",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "with interactive prompt:",
-  "main": "index.js",
+	"type": "module",
+	"main": "index.js",
   "scripts": {
     "test": " node tests/test.js"
   },
-  "type": "module",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "prompt-sync-history": "^1.0.1",
+    "ipfs_kit_js": "^1.0.22",
+		"ipfs_model_manager_js": "^1.0.9",
+		"libp2p_kit_js": "^1.0.5",
+		"orbitdb_kit_js": "^1.0.9"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/endomorphosis/ipfs_huggingface_scraper_js.git"
   },
   "author": "Benjamin Barber",
   "license": "AGPL-3.0-only",
-  "dependencies": {
-    "prompt-sync": "^4.2.0",
-    "prompt-sync-history": "^1.0.1"
-  },
+
   "bugs": {
     "url": "https://github.com/endomorphosis/ipfs_huggingface_scraper_js/issues"
   },
