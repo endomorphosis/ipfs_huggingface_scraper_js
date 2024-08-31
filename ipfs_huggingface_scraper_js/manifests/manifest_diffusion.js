@@ -1,7 +1,7 @@
 import {complete, open_ended_question, multiple_choice_question, parse_templates, generate_template, generate_metadata_template, generate_hwrequirements_template} from '../utils.js'
 import prompt_sync from 'prompt-sync'
 import prompt_sync_history from 'prompt-sync-history'
-import models_generate_diffusion from '../modeldata/generate_diffusion.json' assert { type: 'json' };
+// import models_generate_diffusion from '../modeldata/generate_diffusion.json' assert { type: 'json' };
 
 export class Manifest_diffusion{
     constructor(){

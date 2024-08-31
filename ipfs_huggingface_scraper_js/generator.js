@@ -1,16 +1,16 @@
 
 import fs from 'fs/promises';
 import path from 'path';
-import generate_hf_transformers from './modeldata/generate_hf_transformers.json' assert { type: 'json' };
-import generate_llama_cpp from './modeldata/generate_llama_cpp.json' assert { type: 'json' };
-import generate_hf_embed from './modeldata/generate_hf_embed.json' assert { type: 'json' };
-import generate_hf_faster_whisper from './modeldata/generate_hf_faster_whisper.json' assert { type: 'json' };
-import generate_hf_lm from './modeldata/generate_hf_lm.json' assert { type: 'json' };
-import generate_hf_t5 from './modeldata/generate_hf_t5.json' assert { type: 'json' };
-import generate_hf_diffusion from './modeldata/generate_diffusion.json' assert { type: 'json' };
-import generate_api from './modeldata/generate_api.json' assert { type: 'json' };
-import generate_knn from './modeldata/generate_knn.json' assert { type: 'json' };
-import generate_dataset from './modeldata/generate_dataset.json' assert { type: 'json' };
+// import generate_hf_transformers from './modeldata/generate_hf_transformers.json' assert { type: 'json' };
+// import generate_llama_cpp from './modeldata/generate_llama_cpp.json' assert { type: 'json' };
+// import generate_hf_embed from './modeldata/generate_hf_embed.json' assert { type: 'json' };
+// import generate_hf_faster_whisper from './modeldata/generate_hf_faster_whisper.json' assert { type: 'json' };
+// import generate_hf_lm from './modeldata/generate_hf_lm.json' assert { type: 'json' };
+// import generate_hf_t5 from './modeldata/generate_hf_t5.json' assert { type: 'json' };
+// import generate_hf_diffusion from './modeldata/generate_diffusion.json' assert { type: 'json' };
+// import generate_api from './modeldata/generate_api.json' assert { type: 'json' };
+// import generate_knn from './modeldata/generate_knn.json' assert { type: 'json' };
+// import generate_dataset from './modeldata/generate_dataset.json' assert { type: 'json' };
 import { setFlagsFromString } from 'v8';
 
 export function template_llama_cpp(local_model_path, collection_path){

@@ -1,7 +1,7 @@
 import {complete, open_ended_question, multiple_choice_question, parse_templates, generate_template, generate_metadata_template, generate_hwrequirements_template} from '../utils.js'
 import prompt_sync from 'prompt-sync'
 import prompt_sync_history from 'prompt-sync-history'
-import models_generate_hf_transformers from '../modeldata/generate_hf_transformers.json' assert { type: 'json' };
+// import models_generate_hf_transformers from '../modeldata/generate_hf_transformers.json' assert { type: 'json' };
 import fs from 'fs'
 import path, { parse } from 'path'
 

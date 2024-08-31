@@ -1,8 +1,8 @@
 {
   "name": "ipfs_huggingface_scraper_js",
-  "version": "1.0.13",
+  "type": "module",
+  "version": "1.0.14",
   "description": "with interactive prompt:",
-	"type": "module",
 	"main": "index.js",
   "scripts": {
     "test": " node tests/test.js"
