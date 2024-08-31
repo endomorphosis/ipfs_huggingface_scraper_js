@@ -1,6 +1,5 @@
 import fs from 'fs'
 import { folder_data, generate_md5, synchronousHttpGet, upload_files_s3} from './utils.js'
-import { ipfsClusterCtl } from "./ipfs.js"
 import { convert_model } from './convert.js'
 import { generate_readme } from './readme-generate.js'
 import child_process from 'child_process'
@@ -77,7 +76,6 @@ export class process_manifest
         generate.s3_creds = s3_creds
         generate.hf_creds = hf_creds
         generate.mysql_creds = mysql_creds
-
         console.log("local_model_path: ", local_model_path)
         console.log("process.env.local_model_path: ", process.env.local_model_path)
 

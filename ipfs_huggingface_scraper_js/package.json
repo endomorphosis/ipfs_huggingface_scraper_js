@@ -1,6 +1,6 @@
 {
   "name": "ipfs_huggingface_scraper_js",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "with interactive prompt:",
 	"type": "module",
 	"main": "index.js",
@@ -12,7 +12,7 @@
     "prompt-sync-history": "^1.0.1",
     "ipfs_kit_js": "^1.0.22",
 		"ipfs_model_manager_js": "^1.0.9",
-		"libp2p_kit_js": "^1.0.5",
+		"libp2p_kit_js": "^1.0.12",
 		"orbitdb_kit_js": "^1.0.9"
   },
   "repository": {

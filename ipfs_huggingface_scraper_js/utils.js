@@ -6,7 +6,7 @@ import path from 'path'
 import prompt_sync from 'prompt-sync'
 import prompt_sync_history from 'prompt-sync-history'
 import request from 'sync-request'
-import {createClient, createUploadStream} from './s3.js'
+// import {createClient, createUploadStream} from './s3.js'
 import process from 'process'
 
 export function open_ended_question(question){
